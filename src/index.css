@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* html {
+  scroll-behavior: smooth;
+} */
+.title-Text {
+  font-family: Poppins;
+  font-size: 54px;
+  font-weight: 600;
+  color: #fff;
+}
+.innerTitle-Text {
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 600;
+  color: #fff;
+}
+.text-details {
+  color: #ededed;
+  font-family: Farro;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.subtext-details {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  color: #ededed;
+  font-family: Farro;
+  font-style: normal;
+  text-transform: capitalize;
+}
+.btn-rounded-color {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 20px 60px;
+  border-radius: 42px;
+  background: #ef4d48;
+  box-shadow: 5px 4px 17.5px 0px rgba(239, 77, 72, 0.64);
+}
+.btn-rounded {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 20px 60px;
+  border-radius: 42px;
+  border: 4px solid #fff;
+  box-shadow: 5px 4px 17.5px 0px rgba(255, 255, 255, 0.64);
+}
+.btn-square-color {
+  border-radius: 6px;
+  background: #ef4d48;
+  box-shadow: 5px 4px 17.5px 0px rgba(239, 77, 72, 0.64);
+}
+.btn-square {
+}
+.btn-rounded-color:hover {
+  transform: scale(0.95);
+  transition-duration: 1s;
+}
+.btn-rounded:hover {
+  transform: scale(0.95);
+  transition-duration: 1s;
+}
+.btn-square-color:active {
+  transform: translateY(2px);
+}
+.btn-square:active {
+  transform: translateY(2px);
+}

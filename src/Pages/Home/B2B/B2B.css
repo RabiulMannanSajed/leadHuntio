@@ -1,0 +1,10 @@
+.b2bBg {
+  background: linear-gradient(180deg, #0a7d78 0%, #000 100%);
+}
+.b2b-Card {
+  border-radius: 11px;
+  background: rgba(0, 111, 111, 0.67);
+  box-shadow: 11px 9px 12.8px -3px rgba(3, 144, 138, 0.58);
+  width: 379px;
+  height: 371px;
+}

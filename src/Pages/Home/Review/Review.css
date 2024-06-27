@@ -1,0 +1,99 @@
+.imgDataBg {
+  border-radius: 245px 0px 235px 235px;
+  background: #0a7c77;
+  width: 250px;
+  height: 260px;
+}
+.imgOfTheDiv {
+  width: 333px;
+  height: 258px;
+  border-radius: 150px;
+}
+.reviewPartText {
+  width: 600px;
+  margin-left: 15px;
+}
+.reviewClientName {
+  color: #636363;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.reviewBtn {
+  position: relative;
+  padding: 2px 5px 2px 5px;
+  bottom: 40%;
+  left: 35%;
+  border-radius: 23px;
+  background: #fff;
+  box-shadow: 1px 1px 4.1px 2px rgba(0, 0, 0, 0.12);
+}
+.arrow {
+  color: #0a7c77;
+  font-weight: 500;
+}
+.imgCss {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  animation: scaleAnimation 3s infinite;
+  border: 6px solid #fff;
+  background: lightgray -40.594px -2.022px / 160.176% 123.154% no-repeat;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.12);
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(var(--scale-factor));
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Assign different scale factors based on the id */
+.img-1 {
+  margin-left: 20px;
+
+  --scale-factor: 1.5;
+  animation-duration: 3s;
+  animation-delay: 0s;
+}
+
+.img-2 {
+  margin-top: 40px;
+  --scale-factor: 1.5;
+  animation-duration: 3.5s;
+  animation-delay: 0.5s;
+}
+
+.img-3 {
+  margin-top: 40px;
+  --scale-factor: 1.5;
+  animation-duration: 4s;
+  animation-delay: 1s;
+}
+
+.img-4 {
+  margin-top: 10px;
+  --scale-factor: 1.5;
+  animation-duration: 4.5s;
+  animation-delay: 1.5s;
+}
+
+.img-5 {
+  --scale-factor: 1.5;
+  animation-duration: 5s;
+  animation-delay: 2s;
+}
+
+.img-6 {
+  --scale-factor: 1.7;
+  animation-duration: 5.5s;
+  animation-delay: 2.5s;
+}

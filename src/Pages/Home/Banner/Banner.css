@@ -1,0 +1,26 @@
+.bannerLine {
+  position: relative;
+  top: 50px;
+  right: 10px;
+}
+.banner-color-pattern1 {
+  width: 293px;
+  height: 297px;
+  border-radius: 50%;
+  background-color: #009c95;
+  filter: blur(94.94999694824219px);
+  z-index: 1;
+  top: 50%;
+  left: 90%;
+  transform: translateX(-50%);
+  position: relative;
+  /* clip-path: polygon(0 0, 99px 0, 99px 297px, 0 297px); */
+}
+.star1 {
+  position: relative;
+  bottom: 360px;
+}
+.star2 {
+  display: block;
+  margin-left: auto;
+}

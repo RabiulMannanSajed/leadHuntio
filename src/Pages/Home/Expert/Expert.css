@@ -1,0 +1,9 @@
+.expertBg {
+  background: linear-gradient(
+    180deg,
+    #105858 0%,
+    #0a3636 59.5%,
+    #082929 73%,
+    #000 100%
+  );
+}

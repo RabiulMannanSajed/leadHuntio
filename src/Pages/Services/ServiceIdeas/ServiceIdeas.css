@@ -1,0 +1,20 @@
+.ServiceIdeasText {
+  color: #535353;
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 118.4%; /* 22.496px */
+  text-transform: capitalize;
+}
+
+.ServiceIdeasBtn {
+  color: #08837e;
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 118.4%; /* 22.496px */
+  text-decoration-line: underline;
+  text-transform: capitalize;
+}

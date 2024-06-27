@@ -1,0 +1,53 @@
+.why-leadhuntio {
+  align-items: center;
+  padding: 6rem 0px;
+}
+.why-leadhuntio .common-title,
+.why-leadhuntio .title-discription {
+  text-align: center;
+}
+.why-cart-all {
+  margin: 8% 8% 2% 8%;
+
+  display: flex;
+  align-items: center;
+  padding: 0% 0;
+  gap: 3%;
+}
+.why-cart {
+  width: 100%;
+  border-radius: 24px;
+  background-color: rgba(0, 181, 181, 0.24);
+  border: 4px solid #068984;
+  box-sizing: border-box;
+  height: 295px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5%;
+  padding: 2%;
+  transition: 0.6s;
+}
+.why-cart:hover {
+  background-color: rgba(25, 35, 35, 0.24);
+}
+.why-cart img {
+  width: 20%;
+}
+.why-title {
+  font-size: 27px;
+  font-weight: 600;
+
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+}
+.why-discription {
+  font-size: 14px;
+  line-height: 118.4%;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #ededed;
+  text-align: center;
+  display: inline-block;
+}

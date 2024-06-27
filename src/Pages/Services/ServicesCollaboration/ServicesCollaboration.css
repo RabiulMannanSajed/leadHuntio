@@ -1,0 +1,39 @@
+.ServicesCollaborationPosition {
+  position: relative;
+  bottom: 300px;
+}
+.ServicesCollaborationTitle {
+  color: #08837e;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120.09%;
+}
+.ServicesCollaborationDetails {
+  margin-top: 13px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 183%; /* 31.11px */
+  text-transform: capitalize;
+}
+.servicesCollaborationBtn {
+  border-radius: 7px;
+  background: #038e88;
+  box-shadow: 5px 4px 17.5px 0px #038e88;
+  color: #fff;
+  text-align: center;
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.servicesCollaborationBtnText {
+  padding: 10px;
+  margin-top: 20px;
+}
