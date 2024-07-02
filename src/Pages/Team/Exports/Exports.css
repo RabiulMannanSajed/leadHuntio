@@ -1,1 +1,40 @@
+.carousel {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  border: 2px solid #ddd;
+  padding: 20px;
+  background-color: #fff;
+}
 
+.main-image {
+  text-align: center;
+}
+
+.main-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.thumbnails img {
+  width: 100px;
+  height: auto;
+  margin: 0 5px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+
+.thumbnails img.active,
+.thumbnails img:hover {
+  opacity: 1;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+}

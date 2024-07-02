@@ -16,6 +16,14 @@
   font-weight: 600;
   color: #fff;
 }
+
+.innerTextDetails {
+  font-family: Poppins;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 .text-details {
   color: #ededed;
   font-family: Farro;

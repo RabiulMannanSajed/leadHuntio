@@ -1,7 +1,17 @@
 .servicesInfoAllDiv {
   position: relative;
-  bottom: 90px;
+  bottom: 150px;
 }
 .servicesInfo {
   height: 398px;
+}
+.dice1 {
+  position: relative;
+  margin-left: 3%;
+  top: 200px;
+}
+.dice2 {
+  position: relative;
+  margin-left: 90%;
+  top: 250px;
 }

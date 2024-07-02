@@ -1,0 +1,94 @@
+.bgContact {
+  background: #213939;
+  padding-top: 10%;
+}
+.inputField {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+.inputField label {
+  color: #009993;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 10px;
+}
+.inputField input,
+textarea {
+  height: 60px;
+  width: 100%;
+  border-radius: 7px;
+  padding: 20px;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.contactBtn {
+  border-radius: 7px;
+  background: #038e88;
+  box-shadow: 5px 4px 17.5px 0px #038e88;
+  color: #fff;
+  padding: 20px 65px;
+  text-align: center;
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.getTitle {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+.contactText {
+  color: #ededed;
+  font-family: Farro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118.4%; /* 18.944px */
+  text-transform: capitalize;
+}
+.contactCircle1 {
+  position: relative;
+  left: 300px;
+  animation: circleMove 3s linear infinite;
+}
+
+.contactImg {
+  position: relative;
+  bottom: 60px;
+}
+
+.contactTag {
+  position: relative;
+  bottom: 36%;
+  right: 70px;
+  z-index: 2;
+}
+
+.contactCircle2 {
+  position: relative;
+  bottom: 350px;
+  animation: circleMove 5s linear infinite;
+}
+
+@keyframes circleMove {
+  0% {
+    transform: rotate(0deg) translateX(5px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(5px) rotate(-360deg);
+  }
+}

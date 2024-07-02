@@ -7,3 +7,44 @@
     #000 100%
   );
 }
+.expert {
+  position: relative;
+  bottom: 200px;
+}
+.expert-details {
+  color: #ededed;
+  text-align: center;
+  font-family: Farro;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 118.4%; /* 22.496px */
+  text-transform: capitalize;
+}
+.div-p-circle1 {
+  position: relative;
+  width: 293px;
+  height: 297px;
+  border-radius: 50%;
+  background-color: #009c95;
+  filter: blur(94.94999694824219px);
+  z-index: 1;
+  top: 60%;
+  left: 10%;
+  transform: translateX(-50%);
+}
+
+.expert-circle2 {
+  border-radius: 50%;
+  position: relative;
+  width: 293px;
+  height: 297px;
+  /* overflow: hidden;  */
+  background-color: #009c95;
+  filter: blur(94.94999694824219px);
+  z-index: 1;
+  top: 50%;
+  left: 80%;
+  /* transform: translate(-50%, -50%); */
+  /* clip-path: circle(50% at 100% 50%); */
+}

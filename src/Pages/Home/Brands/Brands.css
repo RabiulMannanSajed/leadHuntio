@@ -1,0 +1,31 @@
+.rectangle-Media {
+  padding: 3rem;
+  background-color: #fff9d2;
+  width: 100%;
+}
+.rectangle-Media p {
+  font-size: 16px;
+  line-height: 118.4%;
+  text-transform: capitalize;
+  font-weight: 500;
+  width: 100%;
+  color: #555;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.image-row {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 60px;
+}
+.image-row img {
+  width: 148px;
+  height: 48px;
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+}
+.image-row img:hover {
+  transform: scale(1.1); /* Zoom in on hover */
+}

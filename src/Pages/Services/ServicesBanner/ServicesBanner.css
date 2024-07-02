@@ -1,0 +1,16 @@
+.servicesBefore {
+  padding-left: 10px;
+  position: relative;
+  font-weight: 600;
+}
+
+.servicesBefore::before {
+  content: "";
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #00f9cc;
+  left: -1px;
+  top: 6.5px;
+}

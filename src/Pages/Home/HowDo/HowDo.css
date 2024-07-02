@@ -1,9 +1,10 @@
 .HowDoBg {
   background: linear-gradient(180deg, #0a7d78 0%, #213939 105.9%);
 }
-.why-leadhuntio {
-  position: relative;
-  bottom: 120px;
+
+.CTag {
+  transform: scaleX(-1);
+  margin-left: auto;
 }
 .hash1 {
   position: relative;
@@ -67,4 +68,5 @@
   position: relative;
   display: block;
   margin-left: 4%;
+  padding-bottom: 150px;
 }

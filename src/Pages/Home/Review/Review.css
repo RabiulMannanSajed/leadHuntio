@@ -21,6 +21,10 @@
   font-weight: 700;
   line-height: normal;
 }
+.coma {
+  position: relative;
+  top: 20%;
+}
 .reviewBtn {
   position: relative;
   padding: 2px 5px 2px 5px;

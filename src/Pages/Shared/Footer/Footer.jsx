@@ -5,12 +5,12 @@ import { FaFacebookSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { TiSocialInstagram } from "react-icons/ti";
 const Footer = () => {
   return (
-    <div className="footerBg p-5 ">
+    <div className="footerBg  ">
       <div>
-        <div className="footerPipeline max-w-screen-xl mx-auto">
+        <div className="footerPipeline mb-[15%]">
           <div className="flex justify-between items-center">
             <div>
-              <h1 className="innerTitle-Text ">
+              <h1 className="footerInnerTitle-Text ">
                 Fill Your Sales Pipeline With <br /> Pre-Qualified Leads
               </h1>
               <p className="text-details pt-[17px] pb-[17px]">
@@ -18,7 +18,6 @@ const Footer = () => {
                 <br />
                 Schedule a demo with one of our team today.
               </p>
-
               <div className="flex items-center  pb-[32px]">
                 <div className="avatar-group -space-x-6 rtl:space-x-reverse">
                   <div className="avatar">
@@ -82,9 +81,9 @@ const Footer = () => {
           {/* footer nav section */}
 
           <div>
-            <p className="mb-3">Digital experience reimagined.</p>
+            <p className="mb-7">Digital experience reimagined.</p>
             {/*  this is all the imgds */}
-            <div className="flex">
+            <div className="flex mb-20">
               <FaLinkedin className="linkDesign" />
               <FaFacebookSquare className="linkDesign" />
               <TiSocialInstagram className="linkDesign" />

@@ -1,7 +1,7 @@
 import "./ServicesCollaboration.css";
 const ServicesCollaboration = () => {
   return (
-    <div className="bg-[#105757]">
+    <div className="bg-[#105757] servicesBgImg">
       <div className="ServicesCollaborationPosition">
         <div className="text-center">
           <h1 className="ServicesCollaborationTitle"> How we Work </h1>
@@ -13,8 +13,9 @@ const ServicesCollaboration = () => {
             </span>
           </h1>
         </div>
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           <img
+            className="servicesCollaborationImg "
             src="https://i.ibb.co/nCw2c6H/pexels-fauxels-3184339-1.png"
             alt=""
           />

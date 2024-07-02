@@ -2,6 +2,14 @@
   position: relative;
   bottom: 300px;
 }
+.servicesCollaborationImg {
+  width: 803px;
+  height: 413px;
+}
+.servicesBgImg {
+  background-image: url("https://i.ibb.co/4PWP5mW/bgimg-Service.png");
+  background-size: cover;
+}
 .ServicesCollaborationTitle {
   color: #08837e;
   text-align: center;

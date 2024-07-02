@@ -1,12 +1,12 @@
 .servicesImg {
-  width: 83px;
-  height: 83px;
+  width: 100px;
+  height: 100px;
   margin-bottom: 60px;
 }
 .servicesInfoTitle {
   color: #08837e;
   font-family: Poppins;
-  font-size: 25px;
+  font-size: 35px;
   font-style: normal;
   font-weight: 600;
   line-height: 120.09%;
@@ -15,17 +15,17 @@
 .servicesInfoDetails {
   color: #6a6a6a;
   font-family: Poppins;
-  font-size: 12px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 139%; /* 16.68px */
+  line-height: 139%;
   text-transform: capitalize;
 }
 .servicesInfoBtnText {
   color: #fff;
   text-align: center;
   font-family: "Exo 2";
-  font-size: 11px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;

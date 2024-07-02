@@ -5,7 +5,7 @@ const HowDo = () => {
     <div className="HowDoBg">
       <div className=" mx-auto ">
         <div className="how-do-it">
-          <div className="">
+          <div className=" pt-[73px]">
             <h1 className="title-Text text-center  ">
               How do we <span className="text-[#EF4D48]">do</span> it?
             </h1>

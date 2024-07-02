@@ -1,3 +1,19 @@
 .FAQBgImg {
   background-image: url("https://i.ibb.co/HtCCcY8/Rectangle-162.png");
+  background-size: cover;
+}
+.teamDot::before {
+  content: "";
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #00f9cc;
+  left: -2px;
+  top: 6.5px;
+}
+.teamDot {
+  padding-left: 10px;
+  position: relative;
+  font-weight: 600;
 }

@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Review.css";
+import Ctga1 from "../../../assets/CtagBW.png";
+import coma from "../../../assets/Frame 11.png";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 
 const Review = () => {
@@ -33,11 +35,12 @@ const Review = () => {
   const findData = reviews.find((review) => review.id === imgContent);
 
   return (
-    <div className="bg-[#FFFDFD] pt-20 pb-28">
+    <div className="bg-[#FFFDFD]  pb-28">
       {/*  this is for the color */}
-      <div className="max-w-screen-xl mx-auto">
+      <img className="mb-[6%]" src={Ctga1} alt="" />
+      <div className="ml-32 mx-auto">
         {/*this is for the space    */}
-        <div className="flex">
+        <div className="flex ">
           {/* this is for img and text this 1 review  */}
           <div className="flex-1 review">
             {findData === undefined ? (
@@ -49,6 +52,7 @@ const Review = () => {
             ) : (
               <>
                 {/* here data is img and the info  */}
+                <img className="coma" src={coma} alt="" />
                 <div className="flex">
                   <div className="imgDataBg">
                     {/* here is the another img of qutaion */}

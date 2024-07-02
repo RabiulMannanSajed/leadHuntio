@@ -1,9 +1,19 @@
 .footerBg {
   background: linear-gradient(180deg, #000 0%, #192a2a 51%, #213939 100%);
   padding-top: 150px;
+  padding: 7%;
+}
+.footerInnerTitle-Text {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 119.9%;
+  height: 107.824px;
 }
 .footerPipeline {
-  padding: 30px;
+  padding: 5%;
   border-radius: 19px;
   border: 2px solid #fff;
   background: #055;

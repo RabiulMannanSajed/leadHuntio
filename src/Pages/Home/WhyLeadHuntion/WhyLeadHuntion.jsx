@@ -7,11 +7,11 @@ const WhyLeadHuntion = () => {
       <section className="why-leadhuntio text-center">
         <div className="why-leadhuntio-div">
           <h1 className="title-Text">
-            <span className="text-[#EF4D48]">How</span> do we{" "}
+            <span className="text-[#EF4D48]">How</span> do we
             <span className="text-[#EF4D48]">do</span> it?
           </h1>
           <p className="text-details">
-            Linked Hacker is the world's #1 B2B lead generation and B2B email{" "}
+            Linked Hacker is the world's #1 B2B lead generation and B2B email
             <br />
             service. No one beats our stats.
           </p>
@@ -46,7 +46,8 @@ const WhyLeadHuntion = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section>{" "}
+      <img className="CTag" src={CTag} alt="" />
     </div>
   );
 };

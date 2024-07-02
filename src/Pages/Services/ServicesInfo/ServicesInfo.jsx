@@ -1,4 +1,5 @@
 import "./ServicesInfo.css";
+import dice from "../../../assets/dicetag.png";
 import { useEffect, useState } from "react";
 import ServicesInfoPage from "../ServicesInfoPage/ServicesInfoPage";
 
@@ -12,7 +13,8 @@ const ServicesInfo = () => {
   return (
     <div className="bg-[#DCFFFE]">
       <div className="servicesInfoAllDiv">
-        <div className="max-w-4xl mx-auto">
+        <img className="dice1" src={dice} alt="" />
+        <div className="ml-[10%] mr-[10%] mx-auto">
           <div className="pb-72">
             <div className="grid grid-cols-4 servicesInfo">
               {servicesInfos.map((servicesInfo, index) => (
@@ -25,6 +27,7 @@ const ServicesInfo = () => {
             </div>
           </div>
         </div>
+        <img className="dice2" src={dice} alt="" />
       </div>
     </div>
   );

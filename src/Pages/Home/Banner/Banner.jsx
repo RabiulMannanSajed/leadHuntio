@@ -3,10 +3,9 @@ import homeBanner from "../../../assets/homebanner.png";
 import line from "../../../assets/Line.png";
 import star1 from "../../../assets/Star 1.png";
 import star2 from "../../../assets/Star 2.png";
-
 const Banner = () => {
   return (
-    <div className=" bg-[#213939] pt-[90px] ">
+    <div className=" bg-[#213939] pt-[9%] ">
       <div className="  ">
         {" "}
         <img className="star2" src={star2} alt="" />
@@ -21,13 +20,14 @@ const Banner = () => {
                 <span className="text-[#EF4D48]">Pre-Qualified</span> Leads{" "}
                 <br /> Delivered To Your Inbox
               </h1>
-              <p className="text-details text-2xl mb-20 mt-5">
+              <p className="text-details text-2xl mb-[10%] mt-5">
                 10 pre-qualified leads per week for 100$
               </p>
               {/*  this is all avatar */}
               <div className="flex items-center">
                 <div className="avatar-group -space-x-6 rtl:space-x-reverse">
                   <div className="avatar">
+                    <p className="hoverName">THis is the name</p>
                     <div className="w-12">
                       <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
                     </div>
